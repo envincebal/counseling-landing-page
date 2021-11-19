@@ -1,9 +1,72 @@
-.logo-div {
-  max-width: 500px;
+.home-container {
+  max-width: 800px;
   margin: 20px auto;
-
 }
 
-.logo{
+.logo-div {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.logo {
   width: 100%;
+}
+
+.home-header {
+  text-align: center;
+}
+
+.intro-section {
+  display: flex;
+  margin-top: 50px;
+}
+
+.intro-text {
+  width: 70%;
+  margin-right: 30px;
+}
+
+.photo-div {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.intro-text {
+  line-height: 25px;
+}
+
+.photo {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.specialties-intro{
+  margin-top: 50px;
+}
+
+.subtitle{
+  text-align: center;
+  color: #428b30;
+  margin-bottom: 20px;
+}
+
+.specialty-text:not(:last-child) {
+  margin-bottom: 15px; 
+}
+
+.specialty-span{
+  font-weight: 700;
+}
+
+.verse{
+  font-style: italic;
+}
+
+.how-it-works{
+  margin-top: 50px;
+}
+
+.works-text:not(:last-child){
+  margin-bottom: 15px;
 }

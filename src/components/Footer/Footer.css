@@ -1,0 +1,19 @@
+.footer {
+  background-color: #a6da9a;
+  text-align: center;
+  color: #428b30;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  font-weight: 700;
+}
+
+.separator {
+  margin: 0 10px;
+}
+

@@ -1,0 +1,27 @@
+.about-container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.about-header {
+  text-align: center;
+}
+
+.education-experience-title {
+  text-align: center;
+  color: #428b30;
+  margin-bottom: 20px;
+}
+
+.education-experience-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education-experience-subtitle {
+  font-style: italic;
+}
+
+.education-experience-subtitle:not(:first-of-type){
+  margin-top: 5px;
+} 

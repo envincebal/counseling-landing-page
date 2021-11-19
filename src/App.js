@@ -5,6 +5,7 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import SpecialtyPage from "./components/SpecialtyPage/SpecialtyPage";
 import RatesPage from "./components/RatesPage/RatesPage";
 import ContactPage from "./components/ContactPage/ContactPage";
+import Footer from "./components/Footer/Footer";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/rates" component={RatesPage} />
         <Route exact path="/contact" component={ContactPage} />
       </Switch>
+      <Footer />
       </BrowserRouter>
       
     </div>
