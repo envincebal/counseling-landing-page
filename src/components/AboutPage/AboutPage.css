@@ -1,6 +1,7 @@
 .about-container {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 0 auto;
+
 }
 
 .about-header {
@@ -10,7 +11,7 @@
 .education-experience-title {
   text-align: center;
   color: #428b30;
-  margin-bottom: 20px;
+  margin: 40px 0 20px 0;
 }
 
 .education-experience-div {
@@ -22,6 +23,6 @@
   font-style: italic;
 }
 
-.education-experience-subtitle:not(:first-of-type){
+.education-experience-subtitle:not(:first-of-type) {
   margin-top: 5px;
-} 
+}

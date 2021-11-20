@@ -9,3 +9,8 @@
 html{
   background-color: #f4faef;
 }
+
+.app-container{
+  padding-top: 61px;
+  min-height: 600px;
+}

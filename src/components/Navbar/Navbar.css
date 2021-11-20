@@ -1,5 +1,7 @@
 .navbar {
   background-color: #a6da9a;
+  position:fixed;
+  width: 100%;
 }
 
 .nav-links {

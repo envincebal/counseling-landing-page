@@ -13,13 +13,16 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
-      <Switch>
+      <div className="app-container">
+        <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/specialty" component={SpecialtyPage} />
         <Route exact path="/rates" component={RatesPage} />
         <Route exact path="/contact" component={ContactPage} />
       </Switch>
+      </div>
+
       <Footer />
       </BrowserRouter>
       
