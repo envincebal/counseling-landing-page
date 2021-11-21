@@ -4,7 +4,7 @@ import "./AboutPage.css";
 
 const AboutPage = () => {
   return (
-    <div className="about-container">
+    <div className="section-container">
       <div className="about-header">
         <h3>
           It’s time to stop thinking that you’re “crazy,” and it’s time to stop

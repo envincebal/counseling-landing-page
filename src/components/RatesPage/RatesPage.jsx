@@ -3,7 +3,7 @@ import "./RatesPage.css";
 
 const RatesPage = () => {
   return (
-    <div className="rates-container">
+    <div className="section-container">
       <h1 className="rates-title">RATES AND INSURANCE</h1>
       <div className="insurance-container">
         <div className="insurance-accepted insurance">

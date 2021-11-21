@@ -6,7 +6,7 @@ import "./HomePage.css";
 
 const HomePage = () => {
   return (
-    <div className="home-container">
+    <div className="section-container">
       <div className="home-header">
         <h2>Trauma Therapy and Faith-Based Christian Counseling in Hawaii</h2>
         <h3>

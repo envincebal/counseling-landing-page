@@ -1,4 +1,44 @@
-.contact-container{
-  max-width: 800px;
-  margin: 0 auto;
+.contact-title{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-div,
+.contact-details {
+  width: 48%;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1.5px solid #428b30;
+  background-color: #f4faef;
+  padding: 15px 5px;
+}
+
+.contact-methods{
+  margin-top: 20px;
+}
+
+.contact-icon {
+  background-color: #428b30;
+  padding: 10px;
+  border-radius: 100%;
+  color: #f4faef;
+  font-size: 20px;
+}
+
+.email,
+.phone-number{
+  margin-bottom: 20px;
+}
+
+.phone-number, .email-link{
+color: #428b30;
+font-size: 24px;
 }

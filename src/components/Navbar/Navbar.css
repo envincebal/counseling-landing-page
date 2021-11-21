@@ -1,26 +1,8 @@
-.navbar {
-  background-color: #a6da9a;
-  position:fixed;
-  width: 100%;
+.navbar, .dropdown-menu{
+  background-color: #a6da9a !important;
+  color:#fff !important;
 }
 
-.nav-links {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 1200px;
-}
-
-.nav-item {
-  display: inline-block;
-  list-style-type: none;
-  letter-spacing: 2px;
-  text-decoration: none;
-  align-items: center;
-  padding: 20px 40px;
-  color: #428b30;
-}
-
-.nav-item:hover {
-  color: #fff;
-  background-color: #51a03f;
+.dropdown-menu{
+  border: none !important;
 }
