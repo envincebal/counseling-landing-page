@@ -13,10 +13,17 @@
 }
 
 .app-container {
+  margin-top: 30px;
   min-height: 600px;
 }
 
-.section-container{
+.section-container {
   max-width: 800px;
   margin: 0 auto;
+}
+
+.section-title {
+  color: #428b30;
+  text-align: center;
+  font-weight: 700;
 }

@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.verified{
+  width: 150px; 
+}
+
+.about-emphasis{
+  text-align: center;
+  font-style: italic;
+}
+
+.img-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-img {
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.bio-details {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
 .education-experience-title {
   text-align: center;
   color: #428b30;

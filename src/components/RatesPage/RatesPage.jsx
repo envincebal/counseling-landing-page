@@ -4,10 +4,10 @@ import "./RatesPage.css";
 const RatesPage = () => {
   return (
     <div className="section-container">
-      <h1 className="rates-title">RATES AND INSURANCE</h1>
+      <h3 className="section-title">Rates and Insurance</h3>
       <div className="insurance-container">
         <div className="insurance-accepted insurance">
-          <h3>Insurance Plans I Currently Accept:</h3>
+          <h5 className="insurance-category">Insurance Plans I Currently Accept:</h5>
           <ul>
             <li>ALOHACARE QUEST</li>
             <li>
@@ -19,9 +19,9 @@ const RatesPage = () => {
           </ul>
         </div>
         <div className="soon-accepted insurance">
-          <h3>Insurance Plans I Will Soon Accept:</h3>
+          <h5 className="insurance-category">Insurance Plans I Will Soon Accept:</h5>
           <ul>
-            <li> HMSA & HMSA QUEST (Hawaii Medical Service Association)</li>
+            <li>HMSA & HMSA QUEST (Hawaii Medical Service Association)</li>
             <li>KAISER</li>
             <li>MEDICARE</li>
             <li>OHANA HEALTH PLAN/WELLCARE</li>
@@ -31,10 +31,10 @@ const RatesPage = () => {
           </ul>
         </div>
         <div className="insurance-questions insurance">
-          <h3>
+          <h5 className="insurance-category">
             Questions to Ask Your Insurance Plan Prior to Starting Therapy
             Sessions:
-          </h3>
+          </h5>
           <ul>
             <li>
               Do I have mental health insurance benefits under my insurance

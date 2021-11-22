@@ -1,0 +1,19 @@
+.emdr-subtitle{
+  text-align: center;
+}
+
+.emdr-qa{
+  font-weight: 700;
+}
+
+.emdr-faq-section{
+  background-color: #cfcfcf;
+  padding: 10px; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.emdr-emphasis{
+  text-align: center;
+  font-style: italic;
+}

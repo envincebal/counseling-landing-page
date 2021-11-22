@@ -4,7 +4,7 @@ import "./ContactPage.css";
 const ContactPage = () => {
   return (
     <div className="section-container">
-      <h1 className="contact-title">CONTACT ME</h1>
+      <h2 className="section-title">Contact Me</h2>
       <div className="contact-div">
         <div className="form-div">
           <form action="">
@@ -21,7 +21,6 @@ const ContactPage = () => {
             <textarea
               className="form-input message-input"
               name="message"
-              id=""
               cols="60"
               rows="10"
               placeholder="Message"

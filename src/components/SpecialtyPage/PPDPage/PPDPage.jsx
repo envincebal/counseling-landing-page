@@ -4,16 +4,16 @@ import "./PPDPage.css";
 const PPDPage = () => {
   return (
     <div className="section-container">
-      <h3>
-        Postpartum Depression and Anxiety/ Maternal Mental Health Counseling in
-        Hawaii
+      <h3 className="section-title">
+        Postpartum Depression and Anxiety/
       </h3>
+      <h3 className="section-title">Maternal Mental Health Counseling</h3>
       [Click Here to Schedule A Session or to Ask Questions] Link to page to
       contact / schedule
-      <h3>
+      <h5 className="ppd-emphasis">
         Are you feeling overwhelmed and alone in a season that is supposed to
         feel joyful?
-      </h3>
+      </h5>
       <p>
         Maybe life with a baby is not what you expected it to look like, or
         perhaps you feel like no one around you understands the anguish you’re
@@ -33,7 +33,7 @@ const PPDPage = () => {
           you to “enjoy every single moment”
         </li>
       </ul>
-      <h3>Therapy can help.</h3>
+      <h5 className="ppd-emphasis">Therapy can help.</h5>
       <p>
         It may feel impossible now, but you can enjoy motherhood. You can feel
         like yourself again. You can feel normal and understood in the midst of
@@ -67,7 +67,7 @@ const PPDPage = () => {
         You don’t have to live life feeling depressed, anxious, overwhelmed, or
         doubtful of yourself and your instincts.
       </p>
-      <h3>I can help you get there.</h3>
+      <h5 className="ppd-emphasis">I can help you get there.</h5>
     </div>
   );
 };

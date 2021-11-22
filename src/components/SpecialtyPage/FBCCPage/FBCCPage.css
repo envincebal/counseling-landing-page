@@ -1,0 +1,19 @@
+.fbcc-content{
+  margin: 30px 0;
+}
+
+.fbcc-emphasis{
+  text-align: center;
+  font-style: italic;
+}
+
+.fbcc-faq-section{
+  background-color: #cfcfcf;
+  padding: 10px; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.fbcc-qa{
+  font-weight: 700;
+}

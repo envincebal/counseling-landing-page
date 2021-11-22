@@ -61,6 +61,9 @@
 .how-it-works{
   margin-top: 50px;
 }
+.how-it-works h5{
+  font-weight: 700;
+}
 
 .works-text:not(:last-child){
   margin-bottom: 15px;

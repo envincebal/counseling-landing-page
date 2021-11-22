@@ -1,10 +1,11 @@
-
-
-.rates-title{
-  text-align: center;
-  margin: 30px 0;
+.insurance-container {
+  margin-top: 20px;
 }
 
-.insurance:not(:last-child){
-margin-bottom: 15px;
+.insurance:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.insurance-category{
+  font-weight: 700;
 }
