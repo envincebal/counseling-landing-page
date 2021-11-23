@@ -1,4 +1,5 @@
 import React from "react";
+import Verified from "../../img/psychology-today-logo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -14,6 +15,9 @@ const Footer = () => {
           overcome your trauma and experience the peaceful and abundant life you
           deserve.
         </p>
+        <a href="https://www.psychologytoday.com/us/therapists/jessica-wong-davine-counseling-services-llc-aiea-hi/906067" target="_blank" rel="noreferrer">
+            <img className="verified" src={Verified} alt="verified" />
+          </a>
         <div className="contact-info">
           <p>
             <i className="fas fa-map-marker-alt"></i> Oahu, Hawaii

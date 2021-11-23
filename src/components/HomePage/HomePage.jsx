@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../img/logo.png";
 import Photo from "../../img/photo.jpg";
+import { LinkContainer } from "react-router-bootstrap";
 
 import "./HomePage.css";
 
@@ -35,6 +36,12 @@ const HomePage = () => {
         <div className="photo-div">
           <img className="photo" src={Photo} alt="pic" />
         </div>
+      </div>
+      <div className="contact-me-now">
+        <p>Have questions or want to set up an appointment? Click Below!</p>
+        <LinkContainer to="/contact">
+        <button className="contact-button">Contact Me</button>
+        </LinkContainer>
       </div>
       <div className="specialties-intro">
         <h4 className="section-title">Specialties / Clinical Interests</h4>

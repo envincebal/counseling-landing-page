@@ -27,3 +27,19 @@
   text-align: center;
   font-weight: 700;
 }
+
+.contact-me-now{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.contact-me-now p {
+  font-weight: 700;
+}
+
+.contact-button{
+  border: none;
+  background-color: #428b30;
+  padding: 15px;
+  color: #f4faef;
+}

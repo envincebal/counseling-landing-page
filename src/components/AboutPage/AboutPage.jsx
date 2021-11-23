@@ -1,6 +1,6 @@
 import React from "react";
 import Photo from "../../img/photo.jpg";
-import Verified from "../../img/psychology-today-logo.png";
+import { LinkContainer } from "react-router-bootstrap";
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -15,12 +15,15 @@ const AboutPage = () => {
           <p>Jessica Wong, LCSW (Licensed Clinical Social Worker)</p>
           <p>EMDR Therapist (Eye Movement Desensitization and Re-Processing)</p>
           <p>Flash Technique Therapist</p>
-          <a href="https://www.psychologytoday.com/us/therapists/jessica-wong-davine-counseling-services-llc-aiea-hi/906067" target="_blank" rel="noreferrer">
-            <img className="verified" src={Verified} alt="verified" />
-          </a>
         </div>
       </div>
-      <br />
+
+      <div className="contact-me-now">
+        <p>Have questions or want to set up an appointment? Click Below!</p>
+        <LinkContainer to="/contact">
+          <button className="contact-button">Contact Me</button>
+        </LinkContainer>
+      </div>
       <p>
         It’s time to stop thinking that you’re “crazy,” and it’s time to stop
         feeling alone.
@@ -82,8 +85,6 @@ const AboutPage = () => {
         get a trained therapist. You’ll get someone who truly understands what
         you’re going through.
       </p>
-      [Click Here to Schedule A Session or to Ask Questions] - Link to page to
-      contact / schedule
       <h2 className="education-experience-title">Experience & Education</h2>
       <div className="education-experience-div">
         <div className="education-div">

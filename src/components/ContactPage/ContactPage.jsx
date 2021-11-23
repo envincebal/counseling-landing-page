@@ -25,6 +25,7 @@ const ContactPage = () => {
               rows="10"
               placeholder="Message"
             ></textarea>
+            <button className="form-submit">SEND</button>
           </form>
         </div>
         <div className="contact-details">

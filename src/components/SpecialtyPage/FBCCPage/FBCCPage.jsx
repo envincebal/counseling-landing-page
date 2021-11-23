@@ -113,7 +113,6 @@ const FBCCPage = () => {
           Let’s keep the Main Thing the main thing.
         </p>
       </div>
-
       <div className="fbcc-faq-section">
         <p>
           <span className="fbcc-qa">Q: </span> How do we get started?

@@ -1,4 +1,4 @@
-.contact-title{
+.contact-title {
   text-align: center;
   margin: 30px 0;
 }
@@ -22,7 +22,15 @@
   padding: 15px 5px;
 }
 
-.contact-methods{
+.form-submit{
+  width: 100%;
+  border: none;
+  background-color: #428b30;
+  color: #f4faef;
+  padding: 10px 0;
+}
+
+.contact-methods {
   margin-top: 20px;
 }
 
@@ -35,11 +43,12 @@
 }
 
 .email,
-.phone-number{
+.phone-number {
   margin-bottom: 20px;
 }
 
-.phone-number, .email-link{
-color: #428b30;
-font-size: 24px;
+.phone-number,
+.email-link {
+  color: #428b30;
+  font-size: 24px;
 }

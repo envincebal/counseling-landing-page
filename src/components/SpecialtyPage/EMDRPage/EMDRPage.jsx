@@ -1,15 +1,12 @@
 import React from "react";
 import "./EMDRPage.css";
 
+
 const EMDRPage = () => {
   return (
     <div className="section-container">
       <h2 className="section-title">Eye Movement Desensitization</h2>
       <h2 className="section-title">and Reprocessing (EMDR)</h2>
-      <h5 className="emdr-subtitle">The Flash Technique (FT)</h5>
-      <h5 className="emdr-subtitle">Trauma Therapy in Hawaii </h5>
-      [Click Here to Schedule A Session or to Ask Questions] Link to page to
-      contact / schedule
       <h5 className="emdr-emphasis">
         Are old memories and experiences interfering with the life you want?
       </h5>
@@ -72,8 +69,6 @@ const EMDRPage = () => {
         captive so that you can live in peace.
       </p>
       <h5 className="emdr-emphasis">I can help you get there.</h5>
-      [Click Here to Schedule A Session or to Ask Questions] - Link to page to
-      contact / schedule
       <h4 className="section-title">FAQs</h4>
       <div className="emdr-faq-section">
         <p>
@@ -147,7 +142,7 @@ const EMDRPage = () => {
           quickly through EMDR and FT than through other methods of traditional
           therapy sessions. Sometimes, those memories (and the thoughts and
           feelings associated with those memories) can be resolved in as little
-          as one session!{" "}
+          as one session!
         </p>
       </div>
       <div className="emdr-faq-section">
@@ -156,7 +151,7 @@ const EMDRPage = () => {
         </p>
         <p>
           <span className="emdr-qa">A: </span>Feel free to call, text, or email
-          me today to ask questions or to schedule your first session!{" "}
+          me today to ask questions or to schedule your first session!
         </p>
       </div>
     </div>
