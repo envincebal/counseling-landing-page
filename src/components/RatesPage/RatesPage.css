@@ -9,3 +9,9 @@
 .insurance-category{
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .education-experience-div{
+    display: initial;
+  }
+}

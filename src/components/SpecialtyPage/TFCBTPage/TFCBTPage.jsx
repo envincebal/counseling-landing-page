@@ -13,8 +13,6 @@ const TFCBTPage = () => {
       <h3 className="section-title">Trauma-Focused Cognitive</h3>
       <h3 className="section-title">Behavioral Therapy (TF-CBT)</h3>
       <h5 className="tfcbt-subtitle">Trauma Therapy in Hawaii </h5>
-      [Click Here to Schedule A Session or to Ask Questions] Link to page to
-      contact / schedule
       <div className="tfcbt-content">
         <h5 className="tfcbt-emphasis">
           Do you want to learn new ways to cope with your past trauma?

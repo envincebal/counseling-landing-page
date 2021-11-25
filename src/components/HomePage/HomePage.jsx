@@ -18,6 +18,9 @@ const HomePage = () => {
         </h5>
       </div>
       <div className="intro-section">
+                <div className="photo-div">
+          <img className="photo" src={Photo} alt="pic" />
+        </div>
         <div className="intro-text">
           <p> Hi, I’m Jessica, and I can help!</p>
           <p>
@@ -33,9 +36,7 @@ const HomePage = () => {
             Jesus.
           </p>
         </div>
-        <div className="photo-div">
-          <img className="photo" src={Photo} alt="pic" />
-        </div>
+
       </div>
       <div className="contact-me-now">
         <p>Have questions or want to set up an appointment? Click Below!</p>

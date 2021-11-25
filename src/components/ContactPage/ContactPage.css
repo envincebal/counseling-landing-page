@@ -52,3 +52,19 @@
   color: #428b30;
   font-size: 24px;
 }
+
+@media screen and (max-width: 700px) {
+  .contact-div {
+
+    display: initial;
+  }
+
+  .form-div,
+.contact-details {
+  width: 100%;
+}
+
+.contact-details {
+  margin-top: 30px;
+}
+  }

@@ -8,7 +8,8 @@ const NavBar = () => {
   return (
     <Navbar expand="lg" sticky="top" className="navbar">
       <Container>
-        <Navbar.Brand href="#home">DaVine Counseling</Navbar.Brand>
+        <Navbar.Brand href="/">DaVine Counseling</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <LinkContainer to="/" activeClassName="">

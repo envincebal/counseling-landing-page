@@ -14,8 +14,6 @@ const PPDPage = () => {
         Postpartum Depression and Anxiety/
       </h3>
       <h3 className="section-title">Maternal Mental Health Counseling</h3>
-      [Click Here to Schedule A Session or to Ask Questions] Link to page to
-      contact / schedule
       <h5 className="ppd-emphasis">
         Are you feeling overwhelmed and alone in a season that is supposed to
         feel joyful?

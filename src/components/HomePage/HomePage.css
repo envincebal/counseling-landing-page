@@ -13,17 +13,17 @@
 
 .intro-section {
   display: flex;
+  flex-direction: row-reverse;
   margin-top: 40px;
 }
 
 .intro-text {
   width: 70%;
   margin-right: 30px;
+  justify-content: space-between;
 }
 
 .photo-div {
-  display: flex;
-  justify-content: center;
   width: 25%;
 }
 
@@ -36,35 +36,61 @@
   border-radius: 5px;
 }
 
-.specialties-intro{
+.specialties-intro {
   margin-top: 40px;
 }
 
-.subtitle{
+.subtitle {
   text-align: center;
   color: #428b30;
   margin-bottom: 20px;
 }
 
 .specialty-text:not(:last-child) {
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
 }
 
-.specialty-span{
+.specialty-span {
   font-weight: 700;
 }
 
-.verse{
+.verse {
   font-style: italic;
 }
 
-.how-it-works{
+.how-it-works {
   margin-top: 50px;
 }
-.how-it-works h5{
+
+.how-it-works h5 {
   font-weight: 700;
 }
 
-.works-text:not(:last-child){
+.works-text:not(:last-child) {
   margin-bottom: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-header{
+    margin-bottom: 30px;
+  }
+
+  .intro-section {
+    display: initial;
+  }
+
+  .photo-div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .photo {
+    width: 80%;
+  }
+
+  .intro-text {
+    margin-top: 30px;
+    width: 100%;
+    margin-right: 30px;
+  }
 }

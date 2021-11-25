@@ -45,3 +45,8 @@
 .education-experience-subtitle:not(:first-of-type) {
   margin-top: 5px;
 }
+
+.experience-div h4,
+.education-div h4{
+  font-weight: 700;
+}
