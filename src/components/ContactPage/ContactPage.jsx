@@ -33,7 +33,6 @@ const ContactPage = () => {
             If you have any further questions or schedule an appointment, please
             feel free to reach out to me!
           </p>
-    
           <p>
             You can call me and if I don't answer, leave a message and I will
             get back to you as soon as I can. Otherwise you can email me using

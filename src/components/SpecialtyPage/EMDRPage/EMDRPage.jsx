@@ -1,7 +1,6 @@
 import React from "react";
 import "./EMDRPage.css";
 
-
 const EMDRPage = () => {
   return (
     <div className="section-container">
