@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/counseling-landing-page/static/css/main.a30d1a4b.chunk.css",
-    "main.js": "/counseling-landing-page/static/js/main.b50bb898.chunk.js",
-    "main.js.map": "/counseling-landing-page/static/js/main.b50bb898.chunk.js.map",
+    "main.js": "/counseling-landing-page/static/js/main.ea64c23a.chunk.js",
+    "main.js.map": "/counseling-landing-page/static/js/main.ea64c23a.chunk.js.map",
     "runtime-main.js": "/counseling-landing-page/static/js/runtime-main.17527460.js",
     "runtime-main.js.map": "/counseling-landing-page/static/js/runtime-main.17527460.js.map",
     "static/css/2.383c0125.chunk.css": "/counseling-landing-page/static/css/2.383c0125.chunk.css",
-    "static/js/2.d36e1514.chunk.js": "/counseling-landing-page/static/js/2.d36e1514.chunk.js",
-    "static/js/2.d36e1514.chunk.js.map": "/counseling-landing-page/static/js/2.d36e1514.chunk.js.map",
+    "static/js/2.2a591362.chunk.js": "/counseling-landing-page/static/js/2.2a591362.chunk.js",
+    "static/js/2.2a591362.chunk.js.map": "/counseling-landing-page/static/js/2.2a591362.chunk.js.map",
     "index.html": "/counseling-landing-page/index.html",
     "static/css/2.383c0125.chunk.css.map": "/counseling-landing-page/static/css/2.383c0125.chunk.css.map",
     "static/css/main.a30d1a4b.chunk.css.map": "/counseling-landing-page/static/css/main.a30d1a4b.chunk.css.map",
-    "static/js/2.d36e1514.chunk.js.LICENSE.txt": "/counseling-landing-page/static/js/2.d36e1514.chunk.js.LICENSE.txt",
+    "static/js/2.2a591362.chunk.js.LICENSE.txt": "/counseling-landing-page/static/js/2.2a591362.chunk.js.LICENSE.txt",
     "static/media/logo.3fe24a71.png": "/counseling-landing-page/static/media/logo.3fe24a71.png",
     "static/media/photo.3c696afa.jpg": "/counseling-landing-page/static/media/photo.3c696afa.jpg",
     "static/media/psychology-today-logo.659f5619.png": "/counseling-landing-page/static/media/psychology-today-logo.659f5619.png"
@@ -19,8 +19,8 @@
   "entrypoints": [
     "static/js/runtime-main.17527460.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.d36e1514.chunk.js",
+    "static/js/2.2a591362.chunk.js",
     "static/css/main.a30d1a4b.chunk.css",
-    "static/js/main.b50bb898.chunk.js"
+    "static/js/main.ea64c23a.chunk.js"
   ]
 }
