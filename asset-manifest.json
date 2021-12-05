@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/counseling-landing-page/static/css/main.a30d1a4b.chunk.css",
-    "main.js": "/counseling-landing-page/static/js/main.ea64c23a.chunk.js",
-    "main.js.map": "/counseling-landing-page/static/js/main.ea64c23a.chunk.js.map",
+    "main.js": "/counseling-landing-page/static/js/main.809d8ffc.chunk.js",
+    "main.js.map": "/counseling-landing-page/static/js/main.809d8ffc.chunk.js.map",
     "runtime-main.js": "/counseling-landing-page/static/js/runtime-main.17527460.js",
     "runtime-main.js.map": "/counseling-landing-page/static/js/runtime-main.17527460.js.map",
     "static/css/2.383c0125.chunk.css": "/counseling-landing-page/static/css/2.383c0125.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.2a591362.chunk.js",
     "static/css/main.a30d1a4b.chunk.css",
-    "static/js/main.ea64c23a.chunk.js"
+    "static/js/main.809d8ffc.chunk.js"
   ]
 }
