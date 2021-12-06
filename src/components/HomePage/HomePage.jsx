@@ -17,39 +17,77 @@ const HomePage = () => {
           Make Peace with Your Past So You Can Move into an Abundant Future
         </h5>
       </div>
+      <h5 className="greeting">Does this sound familiar?</h5>
       <div className="intro-section">
-                <div className="photo-div">
+        <div className="photo-div">
           <img className="photo" src={Photo} alt="pic" />
         </div>
         <div className="intro-text">
-          <p> Hi, I’m Jessica, and I can help!</p>
           <p>
-            I provide trauma therapy using a warm and welcoming approach. I am
-            trained in Eye Movement Desensitization and Reprocessing (EMDR), the
-            Flash Technique (FT), Trauma-Focused Cognitive-Behavioral Therapy
-            (TF-CBT), person-centered therapy, and other methods. I also offer
-            faith-based Christian counseling to those who are interested in
-            incorporating their Christian faith into their therapy sessions. My
-            clients walk away from therapy with me feeling understood,
-            connected, whole, and with greater insights into themselves, their
-            relationships with those around them, and their relationships with
-            Jesus.
+            You want to get past your past and have healthy interactions with
+            those you love, but instead you keep telling yourself:
           </p>
+          <ul>
+            <li>Something is wrong with me; I’m doing it wrong</li>
+            <li>Why can’t I just get it together and move on?</li>
+            <li>
+              I keep trying to change and I want to change, but I just can’t
+              seem to do it
+            </li>
+            <li>
+              “I’m going to stop (doing X, Y and Z).” But somehow you just can’t
+              stop, and you
+            </li>
+            <li>
+              keep repeating these patterns despite your best efforts to change
+              them
+            </li>
+            <li>I’m alone in all of this- nobody gets me</li>
+            <li>
+              I have to figure it all out myself, I can’t depend on anyone else
+              because they’re just going to let me down or reject me
+            </li>
+            <li>Other people have it worse- why am I overreacting?</li>
+            <li>
+              I have to stay strong for everyone around me (even though I’m
+              crumbling inside, and I feel alone and misunderstood)
+            </li>
+            <li>
+              I know I can mentally get over this, but for some reason I just
+              can’t
+            </li>
+          </ul>
         </div>
-
+      </div>
+      <div className="summary-paragraph">
+        <p className="greeting">Hi, I’m Jessica, and I can help!</p>
+        <p>
+          I provide trauma therapy using a warm and welcoming approach. I am
+          trained in Eye Movement Desensitization and Reprocessing (EMDR), the
+          Flash Technique (FT), Trauma-Focused Cognitive-Behavioral Therapy
+          (TF-CBT), person-centered therapy, and other methods. I also offer
+          faith-based Christian counseling to those who are interested in
+          incorporating their Christian faith into their therapy sessions. My
+          clients walk away from therapy with me feeling understood, connected,
+          whole, and with greater insights into themselves, their relationships
+          with those around them, and their relationships with Jesus.
+        </p>
       </div>
       <div className="contact-me-now">
         <p>Have questions or want to set up an appointment? Click Below!</p>
         <LinkContainer to="/contact">
-        <button className="contact-button">Contact Me</button>
+          <button className="contact-button">Contact Me</button>
         </LinkContainer>
       </div>
+
       <div className="specialties-intro">
         <h4 className="section-title">Specialties / Clinical Interests</h4>
         <p className="specialty-text">
-          <span className="specialty-span">
-            Faith-Based Christian Counseling:{" "}
-          </span>
+          <LinkContainer to="/fbcc">
+            <span className="specialty-span">
+              Faith-Based Christian Counseling:{" "}
+            </span>
+          </LinkContainer>
           Allow Jesus to be the source of your healing so that you can feel more
           connected to Him, to those around you, and to the core of who you are
           so that you can feel whole again. “I sought the Lord, and He answered
@@ -58,17 +96,21 @@ const HomePage = () => {
           <span className="verse">-Psalms 34:4-5</span>
         </p>
         <p className="specialty-text">
-          <span className="specialty-span">
-            Eye Movement Desensitization and Reprocessing (EMDR) &The Flash
-            Technique:
-          </span>
+          <LinkContainer to="/emdr">
+            <span className="specialty-span">
+              Eye Movement Desensitization and Reprocessing (EMDR) &The Flash
+              Technique
+            </span>
+          </LinkContainer>:{" "}
           Get unstuck from the trauma of your past so you can move forward into
           abundant life.
         </p>
         <p className="specialty-text">
-          <span className="specialty-span">
-            Trauma-Focused Cognitive Behavioral Therapy (TF-CBT):{" "}
-          </span>
+          <LinkContainer to="/tfcbt">
+            <span className="specialty-span">
+              Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)
+            </span>
+          </LinkContainer>:{" "}
           Learn coping skills, relaxation skills, and new thought processes to
           cope with past trauma and present stressors Postpartum Depression and
           Anxiety/Maternal Mental Health Counseling If you are a new parent, I
@@ -76,9 +118,12 @@ const HomePage = () => {
           your new life.
         </p>
         <p className="specialty-text">
-          <span className="specialty-span">
-            Postpartum Depression and Anxiety/Maternal Mental Health Counseling:
-          </span>
+          <LinkContainer to="/ppd">
+            <span className="specialty-span">
+              Postpartum Depression and Anxiety/Maternal Mental Health
+              Counseling
+            </span>
+          </LinkContainer>:{" "}
           If you are a new parent, I can help you to embrace your new identity
           so that you can thrive in your new life.
         </p>

@@ -87,25 +87,6 @@ const EMDRPage = () => {
           and that the memory no longer has to be held at the forefront of your
           mind as a protective mechanism.
         </p>
-      </div>
-      <div className="emdr-faq-section">
-        <p>
-          <span className="emdr-qa">Q: </span>What are EMDR and FT sessions
-          like?
-        </p>
-        <p>
-          <span className="emdr-qa">A: </span>We will start with several
-          sessions of getting to know you, possibly utilizing TF-CBT or other
-          forms of therapy. Then, I will ask you about specific components of a
-          particularly disturbing memory. We will then begin “bilateral
-          stimulation,” which involves me guiding you in moving your eyes back
-          and forth as you process a memory. This helps the left and right
-          hemispheres of your brain to form a more intimate connection so that
-          the disturbing memory becomes less disturbing. It also helps your
-          mind, emotions, and body to realize that this memory is in the past,
-          and that the memory no longer has to be held at the forefront of your
-          mind as a protective mechanism.
-        </p>
         <p>
           While utilizing the Flash Technique (FT), however, you will not be
           asked to actively think of the disturbing memory. Instead, we will

@@ -14,7 +14,9 @@ const RatesPage = () => {
               HMAA/HWMG (Hawaii Medical Assurance Association/Hawaii Western
               Management Group)
             </li>
-            <li>UHA (University Health Alliance) </li>
+            <li>MEDICARE PART B</li>
+            <li>UHA (University Health Alliance)</li>
+            <li>UNITED HEALTHCARE/OPTUM (Quest, Commercial)</li>
             <li>SELF PAY/PRIVATE PAY ($150/one hour session)</li>
           </ul>
         </div>
@@ -23,11 +25,9 @@ const RatesPage = () => {
           <ul>
             <li>HMSA & HMSA QUEST (Hawaii Medical Service Association)</li>
             <li>KAISER</li>
-            <li>MEDICARE</li>
             <li>OHANA HEALTH PLAN/WELLCARE</li>
             <li>TRICARE</li>
             <li>TRIWEST</li>
-            <li>UNITED HEALTHCARE/BEACON</li>
           </ul>
         </div>
         <div className="insurance-questions insurance">

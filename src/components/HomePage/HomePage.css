@@ -9,18 +9,30 @@
 
 .home-header {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-emphasis{
+  text-align: center;
+  font-style: italic;
 }
 
 .intro-section {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .intro-text {
   width: 70%;
   margin-right: 30px;
   justify-content: space-between;
+}
+
+.greeting{
+  text-align: center;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .photo-div {
@@ -52,6 +64,8 @@
 
 .specialty-span {
   font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .verse {
