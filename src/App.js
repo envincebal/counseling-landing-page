@@ -15,11 +15,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
       <NavBar/>
       <div className="app-container">
         <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/emdr" component={EMDRPage} />
         <Route exact path="/fbcc" component={FBCCPage} />
