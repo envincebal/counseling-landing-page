@@ -1,4 +1,4 @@
-import {  BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NavBar from "./components/Navbar/Navbar";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutPage/AboutPage";
@@ -24,7 +24,8 @@ function App() {
         <Route exact path="/emdr" component={EMDRPage} />
         <Route exact path="/fbcc" component={FBCCPage} />
         <Route exact path="/ppd" component={PPDPage} />
-        <Route exact path="/tfcbt" component={TFCBTPage} /> <Route exact path="/rates" component={RatesPage} />
+        <Route exact path="/tfcbt" component={TFCBTPage} />
+        <Route exact path="/rates" component={RatesPage} />
         <Route exact path="/contact" component={ContactPage} />
       </Switch>
       </div>
