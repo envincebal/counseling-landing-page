@@ -1,4 +1,4 @@
-import {  HashRouter as Router, Switch, Route} from "react-router-dom";
+import {  BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NavBar from "./components/Navbar/Navbar";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutPage/AboutPage";
@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={`${process.env.PUBLIC_URL}/`}>
       <NavBar/>
       <div className="app-container">
         <Switch>
