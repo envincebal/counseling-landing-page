@@ -19,13 +19,13 @@ function App() {
       <NavBar/>
       <div className="app-container">
         <Switch>
-        <Route path="/" component={HomePage} />
-        <Route path="/about" component={AboutPage} />
-        <Route path="/emdr" component={EMDRPage} />
-        <Route path="/fbcc" component={FBCCPage} />
-        <Route path="/ppd" component={PPDPage} />
-        <Route path="/tfcbt" component={TFCBTPage} /> <Route path="/rates" component={RatesPage} />
-        <Route path="/contact" component={ContactPage} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={AboutPage} />
+        <Route exact path="/emdr" component={EMDRPage} />
+        <Route exact path="/fbcc" component={FBCCPage} />
+        <Route exact path="/ppd" component={PPDPage} />
+        <Route exact path="/tfcbt" component={TFCBTPage} /> <Route exact path="/rates" component={RatesPage} />
+        <Route exact path="/contact" component={ContactPage} />
       </Switch>
       </div>
 
