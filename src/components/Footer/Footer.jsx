@@ -28,7 +28,7 @@ const Footer = () => {
           </p>
           <span className="separator">|</span>
           <p>
-            <i className="fas fa-envelope"></i> DaVineCSLLC@gmail.com
+            <i className="fas fa-envelope"></i> jessicawong@davinecounseling.org
           </p>
         </div>
         <p>Telehealth sessions from any location of your choice- from Kapolei to Honolulu, or

@@ -12,11 +12,14 @@ const ContactPage = () => {
               className="form-input name-input"
               type="text"
               placeholder="Name"
+              required
             />
             <input
               className="form-input email-input"
+              name="_replyto"
               type="email"
-              placeholder="Email*"
+              placeholder="Email"
+              required
             />
             <textarea
               className="form-input message-input"
@@ -24,6 +27,7 @@ const ContactPage = () => {
               cols="60"
               rows="10"
               placeholder="Message"
+              required
             ></textarea>
             <button className="form-submit">SEND</button>
           </form>
@@ -36,14 +40,14 @@ const ContactPage = () => {
           <p>
             You can call me and if I don't answer, leave a message and I will
             get back to you as soon as I can. Otherwise you can email me using
-            the email link below or the contact form on this page. I look
+            the email link below or the contact form on this page and leave the best phone # to reach you and we can connect. I look
             forward to hearing from you!
           </p>
           <div className="contact-methods">
             <p className="email">
               <i className="fas fa-envelope contact-icon"></i>{" "}
-              <a className="email-link" href="mailto:DaVineCSLLC@gmail.com">
-                DaVineCSLLC@gmail.com
+              <a className="email-link" href="mailto:jessicawong@davinecounseling.org">
+              jessicawong@davinecounseling.org
               </a>
             </p>
             <p className="phone-number">

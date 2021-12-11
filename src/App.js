@@ -1,4 +1,7 @@
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+
+import ScrollToTop from "./ScrollToTop";
+
 import NavBar from "./components/Navbar/Navbar";
 import HomePage from "./components/HomePage/HomePage";
 import AboutPage from "./components/AboutPage/AboutPage";
@@ -18,6 +21,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
       <NavBar/>
       <div className="app-container">
+        <ScrollToTop />
         <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutPage} />

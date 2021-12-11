@@ -85,9 +85,9 @@ const HomePage = () => {
         <p className="specialty-text">
           <LinkContainer to="/fbcc">
             <span className="specialty-span">
-              Faith-Based Christian Counseling:{" "}
+              Faith-Based Christian Counseling
             </span>
-          </LinkContainer>
+          </LinkContainer>:{" "}
           Allow Jesus to be the source of your healing so that you can feel more
           connected to Him, to those around you, and to the core of who you are
           so that you can feel whole again. “I sought the Lord, and He answered

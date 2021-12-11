@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
-
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -12,44 +11,42 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <LinkContainer to="/" activeClassName="">
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/about">
-              <Nav.Link>About</Nav.Link>
-            </LinkContainer>
+            <Nav.Link as={Link} to="/">
+              Home
+            </Nav.Link>
+
+            <Nav.Link as={Link} to="/about">
+              About
+            </Nav.Link>
 
             <NavDropdown
               title="Specialties/Clinical Interests"
               id="basic-nav-dropdown"
             >
-              <LinkContainer to="/fbcc">
-                <NavDropdown.Item>
-                  Faith-Based Christian Counseling
-                </NavDropdown.Item>
-              </LinkContainer>
-              <LinkContainer to="/emdr">
-                <NavDropdown.Item>
-                  Eye Movement Desensitizing/Reprocessing
-                </NavDropdown.Item>
-              </LinkContainer>
-              <LinkContainer to="/tfcbt">
-                <NavDropdown.Item>
-                  Trauma-Focused Cognitive-Behavior Therapy
-                </NavDropdown.Item>
-              </LinkContainer>
-              <LinkContainer to="/ppd">
-                <NavDropdown.Item>
-                  Postpartum/Maternal Mental Health
-                </NavDropdown.Item>
-              </LinkContainer>
+              <NavDropdown.Item as={Link} to="/fbcc">
+                Faith-Based Christian Counseling
+              </NavDropdown.Item>
+
+              <NavDropdown.Item as={Link} to="/emdr">
+                Eye Movement Desensitizing/Reprocessing
+              </NavDropdown.Item>
+
+              <NavDropdown.Item as={Link} to="/tfcbt">
+                Trauma-Focused Cognitive-Behavior Therapy
+              </NavDropdown.Item>
+
+              <NavDropdown.Item as={Link} to="/ppd">
+                Postpartum/Maternal Mental Health
+              </NavDropdown.Item>
             </NavDropdown>
-            <LinkContainer to="/rates">
-              <Nav.Link>Rates and Insurance</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/contact">
-              <Nav.Link>Contact</Nav.Link>
-            </LinkContainer>
+
+            <Nav.Link as={Link} to="/rates">
+              Rates and Insurance
+            </Nav.Link>
+
+            <Nav.Link as={Link} to="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

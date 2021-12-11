@@ -22,7 +22,7 @@
   padding: 15px 5px;
 }
 
-.form-submit{
+.form-submit {
   width: 100%;
   border: none;
   background-color: #428b30;
@@ -39,7 +39,7 @@
   padding: 10px;
   border-radius: 100%;
   color: #f4faef;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .email,
@@ -50,21 +50,20 @@
 .phone-number,
 .email-link {
   color: #428b30;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 700px) {
   .contact-div {
-
     display: initial;
   }
 
   .form-div,
-.contact-details {
-  width: 100%;
-}
-
-.contact-details {
-  margin-top: 30px;
-}
+  .contact-details {
+    width: 100%;
   }
+
+  .contact-details {
+    margin-top: 30px;
+  }
+}
