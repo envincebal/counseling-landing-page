@@ -50,8 +50,8 @@ const ContactPage = () => {
               jessicawong@davinecounseling.org
               </a>
             </p>
-            <p className="phone-number">
-              <i className="fas fa-phone-alt contact-icon"></i>{" "}808-207-0637
+            <p>
+              <i className="fas fa-phone-alt contact-icon"></i>{" "}<a href="tel:8082070637" className="phone-number">808-207-0637</a>
             </p>
           </div>
         </div>
