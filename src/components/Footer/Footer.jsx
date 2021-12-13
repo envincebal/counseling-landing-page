@@ -24,11 +24,13 @@ const Footer = () => {
           </p>
           <span className="separator">|</span>
           <p>
-            <i className="fas fa-phone-alt"></i> 808-207-0637
+            <i className="fas fa-phone-alt"></i> <a href="tel:8082070637" className="phone-number">808-207-0637</a>
           </p>
           <span className="separator">|</span>
           <p>
-            <i className="fas fa-envelope"></i> jessicawong@davinecounseling.org
+            <i className="fas fa-envelope"></i>               <a className="email-link" href="mailto:jessicawong@davinecounseling.org">
+              jessicawong@davinecounseling.org
+              </a>
           </p>
         </div>
         <p>Telehealth sessions from any location of your choice- from Kapolei to Honolulu, or

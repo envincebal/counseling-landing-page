@@ -53,6 +53,11 @@
   font-size: 18px;
 }
 
+.phone-number:hover,
+.email-link:hover{
+  color: #428b30;
+}
+
 @media screen and (max-width: 700px) {
   .contact-div {
     display: initial;
