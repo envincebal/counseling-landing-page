@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <div className="section-container">
       <div className="logo-div">
-        <img className="logo" src={Logo} alt="logo" />
+        <img className="logo" src={Logo} alt="DaVine Counseling" />
       </div>
       <div className="home-header">
         <h4>Trauma Therapy and Faith-Based Christian Counseling in Hawaii</h4>
@@ -20,7 +20,7 @@ const HomePage = () => {
       <h5 className="greeting">Does this sound familiar?</h5>
       <div className="intro-section">
         <div className="photo-div">
-          <img className="photo" src={Photo} alt="pic" />
+          <img className="photo" src={Photo} alt="Jessica Wong" />
         </div>
         <div className="intro-text">
           <p>

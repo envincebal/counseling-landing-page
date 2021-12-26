@@ -9,11 +9,11 @@ const AboutPage = () => {
       <div className="about-header">
         <h2 className="section-title">About Me</h2>
         <div className="img-div">
-          <img className="about-img" src={Photo} alt="pic" />
+          <img className="about-img" src={Photo} alt="Jessica Wong" />
         </div>
         <div className="bio-details">
-          <p>Jessica Wong, LCSW (Licensed Clinical Social Worker)</p>
-          <p>EMDR Therapist (Eye Movement Desensitization and Re-Processing)</p>
+          <h1>Jessica Wong, LCSW (Licensed Clinical Social Worker)</h1>
+          <h1>EMDR Therapist (Eye Movement Desensitization and Re-Processing)</h1>
           <p>Flash Technique Therapist</p>
         </div>
       </div>

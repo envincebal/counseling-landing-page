@@ -27,6 +27,11 @@
   font-weight: 700;
 }
 
+.bio-details h1{
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .education-experience-title {
   text-align: center;
   color: #428b30;
