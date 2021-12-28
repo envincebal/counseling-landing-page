@@ -10,23 +10,28 @@ const ContactPage = () => {
           <form method="post" action="https://formspree.io/f/meqnjyvr">
             <input
               className="form-input name-input"
+              name="name"
               type="text"
-              placeholder="Name"
+              placeholder="Name*"
               required
             />
             <input
               className="form-input email-input"
               name="_replyto"
               type="email"
-              placeholder="Email"
+              placeholder="Email*"
               required
+            />
+            <input
+              type="telephone" className="form-input phone-input"
+              name="telephone" placeholder="Phone Number"
             />
             <textarea
               className="form-input message-input"
               name="message"
               cols="60"
-              rows="10"
-              placeholder="Message"
+              rows="6"
+              placeholder="Message*"
               required
             ></textarea>
             <button className="form-submit">SEND</button>
@@ -40,7 +45,7 @@ const ContactPage = () => {
           <p>
             You can call me and if I don't answer, leave a message and I will
             get back to you as soon as I can. Otherwise you can email me using
-            the email link below or the contact form on this page and leave the best phone # to reach you and we can connect. I look
+            the email link below or the contact form on this page. I look
             forward to hearing from you!
           </p>
           <div className="contact-methods">
