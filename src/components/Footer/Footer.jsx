@@ -33,6 +33,10 @@ const Footer = () => {
               </a>
           </p>
         </div>
+        <p>
+                  <a className="privacy-link" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3c5c46a1-1a83-4b6f-a273-83dfedc9ce6a" target="_blank" rel="noreferrer">Privacy Policy</a>
+        </p>
+
         <p>Telehealth sessions from any location of your choice- from Kapolei to Honolulu, or
 anywhere else throughout the State of Hawaii!</p>
         <h5 className="copyright">©{year} DaVine Counseling Services, LLC</h5>
