@@ -84,9 +84,9 @@ const HomePage = () => {
         <h4 className="section-title">Specialties / Clinical Interests</h4>
         <p className="specialty-text">
           <LinkContainer to="/fbcc">
-            <span className="specialty-span">
+            <h1 className="specialty-span">
               Faith-Based Christian Counseling
-            </span>
+            </h1>
           </LinkContainer>:{" "}
           Allow Jesus to be the source of your healing so that you can feel more
           connected to Him, to those around you, and to the core of who you are
@@ -97,19 +97,19 @@ const HomePage = () => {
         </p>
         <p className="specialty-text">
           <LinkContainer to="/emdr">
-            <span className="specialty-span">
+            <h1 className="specialty-span">
               Eye Movement Desensitization and Reprocessing (EMDR) &The Flash
               Technique
-            </span>
+            </h1>
           </LinkContainer>:{" "}
           Get unstuck from the trauma of your past so you can move forward into
           abundant life.
         </p>
         <p className="specialty-text">
           <LinkContainer to="/tfcbt">
-            <span className="specialty-span">
+            <h1 className="specialty-span">
               Trauma-Focused Cognitive Behavioral Therapy (TF-CBT)
-            </span>
+            </h1>
           </LinkContainer>:{" "}
           Learn coping skills, relaxation skills, and new thought processes to
           cope with past trauma and present stressors Postpartum Depression and
@@ -119,10 +119,10 @@ const HomePage = () => {
         </p>
         <p className="specialty-text">
           <LinkContainer to="/ppd">
-            <span className="specialty-span">
+            <h1 className="specialty-span">
               Postpartum Depression and Anxiety/Maternal Mental Health
               Counseling
-            </span>
+            </h1>
           </LinkContainer>:{" "}
           If you are a new parent, I can help you to embrace your new identity
           so that you can thrive in your new life.

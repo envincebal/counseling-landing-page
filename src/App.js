@@ -33,7 +33,6 @@ function App() {
         <Route exact path="/contact" component={ContactPage} />
       </Switch>
       </div>
-
       <Footer />
       </Router>
     </div>

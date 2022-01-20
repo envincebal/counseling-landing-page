@@ -67,6 +67,8 @@
   text-decoration: underline;
   cursor: pointer;
   color: #428b30;
+  display: inline;
+  font-size: 16px;
 }
 
 .verse {

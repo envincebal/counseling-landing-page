@@ -6,21 +6,22 @@
   <link rel="icon" href="%PUBLIC_URL%/Logo.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="DaVine Counseling is a faith-based Christian counseling service offered by Jessica Wong. She specializes in trauma therapy, EMDR therapy, postpartum anxiety and maternal mental health." />
-  <title>Jessica Wong | Davine Counseling</title>
+  <meta name="description"
+    content="DaVine Counseling is a faith-based Christian counseling service offered by Jessica Wong. She specializes in trauma therapy, EMDR therapy, postpartum anxiety and maternal mental health." />
+  <title>DaVine Counseling | Jessica Wong, Christian Therapist in Honolulu, HI</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
   <script type="text/javascript">
-    (function(l) {
-      if (l.search[1] === '/' ) {
-        var decoded = l.search.slice(1).split('&').map(function(s) { 
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
           return s.replace(/~and~/g, '&')
         }).join('?');
         window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + decoded + l.hash
+          l.pathname.slice(0, -1) + decoded + l.hash
         );
       }
     }(window.location))
