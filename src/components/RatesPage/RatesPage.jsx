@@ -15,19 +15,14 @@ const RatesPage = () => {
               Management Group)
             </li>
             <li>HMSA &amp; HMSA QUEST (Hawaii Medical Service Association)</li>
+            <li>KAISER</li>
             <li>MEDICARE PART B</li>
             <li>OHANA HEALTH PLAN/WELLCARE</li>
+            <li>TRICARE</li>
+            <li>TRIWEST</li>
             <li>UHA (University Health Alliance)</li>
             <li>UNITED HEALTHCARE/OPTUM (Quest, Commercial)</li>
             <li>SELF PAY/PRIVATE PAY ($150 per 50-57 minute session)</li>
-            <li>TRIWEST</li>
-          </ul>
-        </div>
-        <div className="soon-accepted insurance">
-          <h5 className="insurance-category">Insurance Plans I Will Soon Accept:</h5>
-          <ul>
-            <li>KAISER</li>
-            <li>TRICARE</li>
           </ul>
         </div>
         <div className="insurance-questions insurance">

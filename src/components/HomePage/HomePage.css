@@ -12,6 +12,10 @@
   margin-bottom: 20px;
 }
 
+.home-header h1{
+  font-size: 24px;
+}
+
 .home-emphasis{
   text-align: center;
   font-style: italic;

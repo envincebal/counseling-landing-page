@@ -12,7 +12,7 @@ const HomePage = () => {
         <img className="logo" src={Logo} alt="DaVine Counseling" />
       </div>
       <div className="home-header">
-        <h4>Trauma Therapy and Faith-Based Christian Counseling in Hawaii</h4>
+        <h1>Trauma Therapy and Faith-Based Christian Counseling in Hawaii</h1>
         <h5>
           Make Peace with Your Past So You Can Move into an Abundant Future
         </h5>
