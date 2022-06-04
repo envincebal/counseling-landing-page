@@ -59,6 +59,7 @@ const Footer = () => {
           Telehealth sessions from any location of your choice- from Kapolei to
           Honolulu, or anywhere else throughout the State of Hawaii!
         </p>
+        <p>I am also an out-of-state telehealth provider for the state of Florida: <a className="privacy-link" href="https://flhealthsource.gov/telehealth/">Click Here</a> </p>
         <h5 className="copyright">©{year} DaVine Counseling Services, LLC</h5>
       </div>
     </div>
