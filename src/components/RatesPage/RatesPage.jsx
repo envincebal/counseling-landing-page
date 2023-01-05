@@ -15,7 +15,7 @@ const RatesPage = () => {
               Management Group)
             </li>
             <li>HMSA &amp; HMSA QUEST (Hawaii Medical Service Association)</li>
-            <li>KAISER</li>
+            <li>KAISER & KAISER QUEST</li>
             <li>MEDICARE PART B</li>
             <li>OHANA HEALTH PLAN/WELLCARE</li>
             <li>TRIWEST</li>
