@@ -18,7 +18,6 @@ const RatesPage = () => {
             <li>KAISER</li>
             <li>MEDICARE PART B</li>
             <li>OHANA HEALTH PLAN/WELLCARE</li>
-            <li>TRICARE</li>
             <li>TRIWEST</li>
             <li>UHA (University Health Alliance)</li>
             <li>UNITED HEALTHCARE/OPTUM (Quest, Commercial)</li>
