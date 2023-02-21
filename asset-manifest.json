@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cd3b3db9.chunk.css",
-    "main.js": "/static/js/main.fff2a59f.chunk.js",
-    "main.js.map": "/static/js/main.fff2a59f.chunk.js.map",
+    "main.js": "/static/js/main.c70c04d0.chunk.js",
+    "main.js.map": "/static/js/main.c70c04d0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36d7f401.js",
     "runtime-main.js.map": "/static/js/runtime-main.36d7f401.js.map",
     "static/css/2.383c0125.chunk.css": "/static/css/2.383c0125.chunk.css",
@@ -12,14 +12,15 @@
     "static/css/2.383c0125.chunk.css.map": "/static/css/2.383c0125.chunk.css.map",
     "static/css/main.cd3b3db9.chunk.css.map": "/static/css/main.cd3b3db9.chunk.css.map",
     "static/js/2.958ecd11.chunk.js.LICENSE.txt": "/static/js/2.958ecd11.chunk.js.LICENSE.txt",
-    "static/media/logo.6f6943fc.png": "/static/media/logo.6f6943fc.png",
-    "static/media/photo.fff38ab8.jpg": "/static/media/photo.fff38ab8.jpg"
+    "static/media/FAVORITE Jessica Wong Headshots-5.f335710a.jpg": "/static/media/FAVORITE Jessica Wong Headshots-5.f335710a.jpg",
+    "static/media/Jessica Wong Headshots-7.42c4592a.jpg": "/static/media/Jessica Wong Headshots-7.42c4592a.jpg",
+    "static/media/logo.6f6943fc.png": "/static/media/logo.6f6943fc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36d7f401.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.958ecd11.chunk.js",
     "static/css/main.cd3b3db9.chunk.css",
-    "static/js/main.fff2a59f.chunk.js"
+    "static/js/main.c70c04d0.chunk.js"
   ]
 }
