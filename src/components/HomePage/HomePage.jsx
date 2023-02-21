@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../img/logo.png";
-import Photo from "../../img/photo.jpg";
+import Photo from "../../img/FAVORITE Jessica Wong Headshots-5.jpg";
 import { LinkContainer } from "react-router-bootstrap";
 
 import "./HomePage.css";

@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../../img/photo.jpg";
+import Photo from "../../img/Jessica Wong Headshots-7.jpg";
 import { LinkContainer } from "react-router-bootstrap";
 import "./AboutPage.css";
 
