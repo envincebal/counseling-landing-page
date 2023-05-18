@@ -1,5 +1,6 @@
 import React from "react";
 import Verified from "../../img/psychology-today-logo.png";
+import Emdria from "../../img/emdria.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -15,6 +16,7 @@ const Footer = () => {
           overcome your trauma and experience the peaceful and abundant life you
           deserve.
         </p>
+        <img className="emdria-img" src={Emdria} alt="emdria logo" />
         <a
           href="https://www.psychologytoday.com/us/therapists/jessica-wong-davine-counseling-services-llc-aiea-hi/906067"
           target="_blank"

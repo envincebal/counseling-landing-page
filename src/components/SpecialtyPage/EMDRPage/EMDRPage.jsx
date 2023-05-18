@@ -1,4 +1,5 @@
 import React from "react";
+import Emdria from "../../../img/emdria.png";
 import "./EMDRPage.css";
 
 const EMDRPage = () => {
@@ -9,6 +10,10 @@ const EMDRPage = () => {
       <h5 className="emdr-emphasis">
         Are old memories and experiences interfering with the life you want?
       </h5>
+      <div className="emdr-emdria-img-div">
+        <img className="emdr-emdria-img" src={Emdria} alt="Emdria logo" />
+      </div>
+
       <p>
         Maybe you had a huge argument with someone you love deeply, or perhaps
         you find yourself pushing people away. You may be feeling stuck in old

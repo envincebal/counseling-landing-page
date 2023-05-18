@@ -28,7 +28,7 @@ const NavBar = () => {
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/emdr">
-                Eye Movement Desensitizing/Reprocessing
+              EMDR: Eye Movement Desensitization and Reprocessing
               </NavDropdown.Item>
 
               <NavDropdown.Item as={Link} to="/tfcbt">

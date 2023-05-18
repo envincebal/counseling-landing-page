@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.emdr-emdria-img-div{
+  text-align: center;
+  margin: 10px 0;
+}
+
+.emdr-emdria-img{
+  width: 150px;
+}
+
 .emdr-qa{
   font-weight: 700;
 }
