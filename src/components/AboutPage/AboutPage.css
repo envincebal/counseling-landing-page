@@ -11,6 +11,15 @@
   font-style: italic;
 }
 
+.about-link{
+  color: #428b30;
+}
+
+.about-link:visited,
+.about-link:hover{
+  color: #428b30;
+}
+
 .img-div {
   width: 100%;
   display: flex;

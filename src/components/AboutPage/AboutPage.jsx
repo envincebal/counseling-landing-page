@@ -108,6 +108,7 @@ const AboutPage = () => {
           <h5 className="education-experience-subtitle">Other</h5>
           <ul>
             <li>Member of New Hope Leeward</li>
+            <li><a className="about-link" href="https://www.intelligent.com/online-college-guide-for-students-with-mental-health-disorders/">College Planning Guide for Students With Mental Health Disorders</a> </li>
           </ul>
         </div>
         <div className="experience-div">
